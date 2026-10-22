@@ -4,7 +4,7 @@
     "slug": "EventEase2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/assets/Logo_Original.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -12,14 +12,20 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./src/assets/assets/Logo_Original.png",
+        "backgroundImage": "./src/assets/assets/Logo_Original.png",
+        "monochromeImage": "./src/assets/assets/Logo_Original.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./src/assets/assets/Logo_Original.png"
+    },
+    "plugins": [
+      "expo-splash-screen",
+      "expo-font",
+      "expo-status-bar",
+      "@react-native-community/datetimepicker"
+    ]
   }
 }

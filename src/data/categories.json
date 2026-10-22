@@ -1,0 +1,28 @@
+[
+  {
+    "id": "music",
+    "label": "Musique",
+    "icon": "musical-notes",
+    "color": "#EC4899"
+  },
+  { "id": "sport", "label": "Sport", "icon": "basketball", "color": "#10B981" },
+  {
+    "id": "culture",
+    "label": "Culture",
+    "icon": "color-palette",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "solidarity",
+    "label": "Solidarité",
+    "icon": "heart",
+    "color": "#EF4444"
+  },
+  {
+    "id": "networking",
+    "label": "Networking",
+    "icon": "briefcase",
+    "color": "#6366F1"
+  },
+  { "id": "party", "label": "Soirée", "icon": "sparkles", "color": "#8B5CF6" }
+]

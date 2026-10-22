@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u1",
+    "firstName": "Camille",
+    "lastName": "Durand",
+    "email": "camille.durand@eventease.test",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "id": "u2",
+    "firstName": "Lucas",
+    "lastName": "Martin",
+    "email": "lucas.martin@eventease.test",
+    "password": "member123",
+    "role": "member"
+  },
+  {
+    "id": "u3",
+    "firstName": "Inès",
+    "lastName": "Moreau",
+    "email": "ines.moreau@eventease.test",
+    "password": "volunteer123",
+    "role": "volunteer"
+  }
+]

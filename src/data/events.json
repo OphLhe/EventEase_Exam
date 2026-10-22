@@ -1,0 +1,67 @@
+[
+  {
+    "id": "e1",
+    "title": "Festival de jazz de quartier",
+    "description": "Une soirée de concerts en plein air avec trois groupes locaux.",
+    "date": "2026-11-14T19:00:00.000Z",
+    "location": "Place de la République, Paris",
+    "categoryId": "music",
+    "organizerId": "u1",
+    "participantIds": ["u2", "u3"],
+    "volunteerIds": ["u3"],
+    "volunteersNeeded": 4,
+    "maxParticipants": 150
+  },
+  {
+    "id": "e2",
+    "title": "Tournoi de basket 3x3",
+    "description": "Tournoi amical ouvert à tous les niveaux, par équipes de trois.",
+    "date": "2026-11-21T10:00:00.000Z",
+    "location": "Gymnase Léo Lagrange, Paris",
+    "categoryId": "sport",
+    "organizerId": "u2",
+    "participantIds": ["u1", "u2"],
+    "volunteerIds": [],
+    "volunteersNeeded": 2,
+    "maxParticipants": 48
+  },
+  {
+    "id": "e3",
+    "title": "Collecte alimentaire solidaire",
+    "description": "Tri et distribution de denrées pour les associations du quartier.",
+    "date": "2026-11-28T09:00:00.000Z",
+    "location": "Salle des fêtes, Montreuil",
+    "categoryId": "solidarité",
+    "organizerId": "u1",
+    "participantIds": [],
+    "volunteerIds": ["u3"],
+    "volunteersNeeded": 10,
+    "maxParticipants": 30
+  },
+  {
+    "id": "e4",
+    "title": "Soirée networking entrepreneurs",
+    "description": "Rencontres entre porteurs de projets, avec trois intervenants invités.",
+    "date": "2026-12-05T18:30:00.000Z",
+    "location": "Station F, Paris",
+    "categoryId": "réseaux professionels",
+    "organizerId": "u2",
+    "participantIds": ["u1", "u2", "u3"],
+    "volunteerIds": [],
+    "volunteersNeeded": 1,
+    "maxParticipants": 80
+  },
+  {
+    "id": "e5",
+    "title": "Exposition d'art urbain",
+    "description": "Visite guidée de l'exposition de la saison (évènement déjà passé).",
+    "date": "2026-10-10T14:00:00.000Z",
+    "location": "Galerie du Canal, Pantin",
+    "categoryId": "culture",
+    "organizerId": "u1",
+    "participantIds": ["u2"],
+    "volunteerIds": [],
+    "volunteersNeeded": 0,
+    "maxParticipants": 40
+  }
+]

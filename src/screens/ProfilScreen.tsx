@@ -29,7 +29,7 @@ const ProfilScreen = () => {
   };
   return (
     <>
-      <Screen>
+      <Screen scroll>
         <Text style={[FontStyle.h1, { color: colors.mainText }]}>
           Mon Profil
         </Text>

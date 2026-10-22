@@ -4,25 +4,30 @@
     "slug": "EventEase2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/assets/Logo_Original.png",
+    "icon": "./src/assets/Logo2.png",
     "userInterfaceStyle": "light",
+
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./src/assets/assets/Logo_Original.png",
-        "backgroundImage": "./src/assets/assets/Logo_Original.png",
-        "monochromeImage": "./src/assets/assets/Logo_Original.png"
+        "foregroundImage": "./src/assets/Logo.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./src/assets/assets/Logo_Original.png"
+      "favicon": "./src/assets/Logo_EventEase.png"
     },
     "plugins": [
-      "expo-splash-screen",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./src/assets/Logo2.png"
+        }
+      ],
       "expo-font",
       "expo-status-bar",
       "@react-native-community/datetimepicker"

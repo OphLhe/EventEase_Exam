@@ -3,7 +3,6 @@ import { useTheme } from "../../hooks/useTheme";
 import { ReactNode } from "react";
 import {
   KeyboardAvoidingView,
-  Platform,
   ScrollView,
   StyleProp,
   StyleSheet,

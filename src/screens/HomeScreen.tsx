@@ -18,8 +18,7 @@ import { useAuth } from "../hooks/useAuth";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
 import { isFull, isRegistered } from "../utils/events";
-import { canCreateEvent, canManageEvent } from "../utils/permission";
-import { Button } from "../components/uiComponents/Button";
+import { canManageEvent } from "../utils/permission";
 import { Ionicons } from "@expo/vector-icons";
 
 type Filter = "mine" | "all";
@@ -91,7 +90,7 @@ const HomeScreen = () => {
   };
 
   return (
-    <Screen>
+    <Screen scroll>
       <DarkToggleTheme />
       <Text
         style={[FontStyle.h1, { color: colors.mainText }]}

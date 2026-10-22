@@ -190,7 +190,7 @@ const EventScreen = () => {
                   {
                     backgroundColor: selected
                       ? colors.btnPrimary
-                      : colors.mainText,
+                      : colors.btnSecondary,
                     borderColor: selected
                       ? colors.btnPrimary
                       : colors.inputStroke,
@@ -211,7 +211,9 @@ const EventScreen = () => {
                       color: selected ? colors.textPrimary : colors.mainText,
                     },
                   ]}
-                ></Text>
+                >
+                  {c.label}
+                </Text>
               </Pressable>
             );
           })}

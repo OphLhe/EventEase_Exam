@@ -3,15 +3,7 @@ import { useTheme } from "../hooks/useTheme";
 import { Screen } from "../components/uiComponents/Screen";
 import { Input } from "../components/uiComponents/Input";
 import DarkToggleTheme from "../components/DarkModeToggle";
-import {
-  Platform,
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from "react-native";
+import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { useRef, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
